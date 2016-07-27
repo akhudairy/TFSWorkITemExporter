@@ -35,7 +35,7 @@ namespace Sedco.Products.TFSHelpers.WorkItemsExporterTool
                 {
                     try
                     {
-                        NetworkCredential credentials = new NetworkCredential("ahmad.k", "One23456!", "sedco-online");
+                        NetworkCredential credentials = new NetworkCredential(userTextBox.Text, passwordTextBox.Text, domainTextBox.Text);
                         HTMLPagesCreationHelper.SaveItemsSummary(itemList, dialog.SelectedPath, Environment.CurrentDirectory, credentials);
                         MessageBox.Show("Saving completed");
                     }
