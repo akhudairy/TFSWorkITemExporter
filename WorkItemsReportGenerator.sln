@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemsDefaultExtractor", "WorkItemsDefaultExtractor\WorkItemsDefaultExtractor.csproj", "{2F120EE3-A585-4820-8B96-6D63707BAE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemsDefinitions", "WorkItemsDefinitions\WorkItemsDefinitions.csproj", "{D3096DC7-0D40-481A-9A97-79528A570C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemsExporterTool", "WorkItemsExporterTool\WorkItemsExporterTool.csproj", "{A0009AD7-9629-4950-A97B-6368D92BB9AC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WorkItemsExporterTool\\WorkItemsExporterTool.csproj
+		SccProjectName1 = WorkItemsExporterTool
+		SccLocalPath1 = WorkItemsExporterTool
+		SccProjectUniqueName2 = WorkItemsDefinitions\\WorkItemsDefinitions.csproj
+		SccProjectName2 = WorkItemsDefinitions
+		SccLocalPath2 = WorkItemsDefinitions
+		SccProjectUniqueName3 = WorkItemsDefaultExtractor\\WorkItemsDefaultExtractor.csproj
+		SccProjectName3 = WorkItemsDefaultExtractor
+		SccLocalPath3 = WorkItemsDefaultExtractor
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F120EE3-A585-4820-8B96-6D63707BAE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F120EE3-A585-4820-8B96-6D63707BAE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F120EE3-A585-4820-8B96-6D63707BAE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F120EE3-A585-4820-8B96-6D63707BAE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3096DC7-0D40-481A-9A97-79528A570C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3096DC7-0D40-481A-9A97-79528A570C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3096DC7-0D40-481A-9A97-79528A570C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3096DC7-0D40-481A-9A97-79528A570C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0009AD7-9629-4950-A97B-6368D92BB9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0009AD7-9629-4950-A97B-6368D92BB9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0009AD7-9629-4950-A97B-6368D92BB9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0009AD7-9629-4950-A97B-6368D92BB9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

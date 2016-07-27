@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Work Items Summary</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="grid.css" rel="stylesheet">
+    <link href="jquery.dataTables.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Work Items Summary</h1>
+        <p class="lead">Report generated on: [Date]</p>
+      </div>
+
+
+        <table id="workItemsTable" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>State</th>
+                    <th>Creation Date</th>
+                    <th>Assigned To</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                [WorkItems]
+            </tbody>
+        </table>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+      <script src="jquery-1.12.3.js"></script>
+      <script src="jquery.dataTables.min.js"></script>
+      <script>
+          $(document).ready(function () {
+              $('#workItemsTable').DataTable();
+          });
+      </script>
+  </body>
+</html>
