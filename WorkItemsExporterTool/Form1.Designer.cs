@@ -50,7 +50,6 @@
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.userTextBox = new System.Windows.Forms.TextBox();
             this.domainTextBox = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -73,7 +72,8 @@
             this.queryTextBox.Size = new System.Drawing.Size(540, 70);
             this.queryTextBox.TabIndex = 8;
             this.queryTextBox.Text = "SELECT [System.Id], [System.WorkItemType],[System.State], [System.AssignedTo], [S" +
-    "ystem.Title] \r\nFROM WorkItems ORDER BY [System.WorkItemType], [System.Id]";
+    "ystem.Title] \r\nFROM WorkItems WHERE [QAServiceID] = \'SSS/1.0.0\' ORDER BY [System" +
+    ".WorkItemType], [System.Id]";
             // 
             // tfsUrlTextBox
             // 
@@ -81,7 +81,7 @@
             this.tfsUrlTextBox.Name = "tfsUrlTextBox";
             this.tfsUrlTextBox.Size = new System.Drawing.Size(540, 20);
             this.tfsUrlTextBox.TabIndex = 1;
-            this.tfsUrlTextBox.Text = "http://tfsserver:8080/tfs/";
+            this.tfsUrlTextBox.Text = "http://tfs:8080/tfs/";
             // 
             // label3
             // 
@@ -218,7 +218,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -278,15 +277,7 @@
             this.domainTextBox.Name = "domainTextBox";
             this.domainTextBox.Size = new System.Drawing.Size(466, 20);
             this.domainTextBox.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(25, 96);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 13);
-            this.label8.TabIndex = 100;
-            this.label8.Text = "User";
+            this.domainTextBox.Text = "sedco-online";
             // 
             // Form1
             // 
@@ -337,7 +328,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RadioButton savedQueryRadioButton;
-        private System.Windows.Forms.Label label8;
 
     }
 }

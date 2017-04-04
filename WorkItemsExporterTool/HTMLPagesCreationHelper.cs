@@ -92,7 +92,7 @@ namespace Sedco.Products.TFSHelpers.WorkItemsExporterTool
                             message += ". " + ex.InnerException.Message;
                         }
 
-                        MessageBox.Show("Error while downloading '" + "" + "'. Details: " + message + Environment.NewLine + Environment.NewLine + "If you have 'Fiddler' installed on this machine, try to run it and try again.");
+                        MessageBox.Show("Error while downloading '" + "" + "'. Details: " + message);
                     }
                 }
             }
